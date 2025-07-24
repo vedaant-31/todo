@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
 const app = express();
 
-mongoose.connect('mongodb://localhost:27017/todoDB');
+mongoose.connect('mongodb+srv://vedantparag123:vedant123@DB@todo1.3l5eag5.mongodb.net/?retryWrites=true&w=majority&appName=todo1');
 
 
 app.set('view engine', 'ejs');
